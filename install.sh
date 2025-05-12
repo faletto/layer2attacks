@@ -4,7 +4,7 @@ sudo apt update
 sudo apt install ettercap-text-only wireshark -y
 sudo curl -L https://github.com/faletto/camovers/releases/download/releases/camovers-linux -o /bin/camovers
 sudo chmod +x /bin/camovers
-sudo curl -L https://github.com/faletto/churchill/releases/download/v1.0.0/churchill-linux -o /bin/churchill
+sudo curl -L https://github.com/faletto/churchill/releases/download/v1.0.1/churchill-linux -o /bin/churchill
 sudo chmod +x /bin/churchill
 echo $'[!] Installation completed. Please note down the name/IP of your ethernet interface shown below, you may have more than one:'
 ip -brief addr | grep '^e' | awk '{print $1,$3}'
